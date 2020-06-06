@@ -16,11 +16,11 @@
             </tr>
             <tr>
                 <td>Email</td>
-                <td><input type="text" name="email"></td>
+                <td><input type="text" name="Judul"></td>
             </tr>
             <tr>
                 <td>Mobile</td>
-                <td><input type="text" name="mobile"></td>
+                <td><input type="text" name="Tanggal"></td>
             </tr>
             <tr>
                 <td></td>
@@ -34,8 +34,8 @@
     // Check If form submitted, insert form data into users table.
     if (isset($_POST['Submit'])) {
         $name = $_POST['name'];
-        $email = $_POST['email'];
-        $mobile = $_POST['mobile'];
+        $email = $_POST['Judul'];
+        $mobile = $_POST['tanggal'];
 
         // include database connection file
         include_once("config.php");
