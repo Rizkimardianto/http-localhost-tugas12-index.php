@@ -18,9 +18,9 @@ $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC");
     <table width='80%' border=1>
 
         <tr>
-            <th>Name</th>
-            <th>Mobile</th>
-            <th>Email</th>
+            <th>Nama Penulis</th>
+            <th>Judul</th>
+            <th>Tanggal</th>
             <th>Update</th>
         </tr>
         <?php
